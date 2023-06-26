@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: Courier;
+    font-weight: 700;
+}
+
+li{list-style: none; display: inline;}
+li a{ color:#ffffff;}
+li a:hover{background: #ffffff; color:#686697; padding: 10px;}
+
+/* Back to Top Pure CSS by igniel.com */
+html {scroll-behavior:smooth;}
+.ignielToTop {
+  width:50px; height:50px; position:fixed; bottom:50px; right: 50px; 
+  z-index:99; cursor:pointer; border-style: solid; border-color: #5B5274; border-radius:10px; transition:all .5s; 
+  background:#686697 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+.ignielToTop:hover {background:#DACFDF url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: left;
+    background-color: #fff;
+	color: #333;
+	padding: 10px;
+}
+
+.icon {
+    width: 2%;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #686697;
+    color: white;
+    padding: 1px;
+    clear: both;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-style: solid;
+    border-color: #5B5274;
+}
+
+header {
+    background-color: #686697;
+    border-style: solid;
+    border-color: #5B5274;
+    color: white;
+    padding: 1px;
+    clear: both;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+body { 
+    margin: 0;
+	padding: 0;
+    background-color: #FEF0D6;
+    background-image: linear-gradient(to bottom, #FEF0D6, #FACFCF, #D9CFDE);
+    margin-top: 40px;
+}
+
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("./photos/stars.gif");
+  background-size: 5%;
+  background-position: 100% 10000px;
+  opacity: 0.1;
+}
+
+  .hanging {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    background-size: cover;
+    opacity: 0.2;
+  }
+
+  .top-left {
+    top: 50px;
+    left: 20px;
+    background-image: url("./photos/hanging-stars.gif");
+  }
+
+  .top-right {
+    top: 50px;
+    right: 20px;
+    background-image: url("./photos/hanging-stars.gif");
+    transform: scaleX(-1);
+  }
+
+
+.navi{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+table {
+    border-color: #5B5274;
+    border: all;
+}
+
+.content{
+    text-align: center;
+    background-color: #DACFDF;
+    margin-bottom: 30px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-color: #5B5274;
+    border-style: solid;
+    color: #5B5274;
+}
+
+.content_header{
+    text-align: center;
+    background-color: #686697;
+    border-color: #5B5274;
+    border-style: solid;
+    font-size: larger;
+    padding-top: 10px;
+    height: 30px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+  flex-grow: 1;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.exit-button {
+  padding: 5px;
+  background: white;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #5B5274;
+  border: 1px solid #5B5274;
+  margin-top: -5px;
+}
+
+.exit-button:hover{
+  background: #ff8888;
+  color: white;
+  border: 1px solid white;
+
+}
+
+.content-resume{
+  text-align: left;
+  background-color: #DACFDF;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-color: #5B5274;
+  border-style: solid;
+  color: #5B5274;
+}
+
+.content-isi{
+  text-align: center;
+  background-color: #FEF0D6;
+  margin-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-color: #5B5274;
+  border-style: solid;
+  color: #5B5274;
+  padding: 30px;
+}
+
+.content_header-isi{
+  text-align: center;
+  background-color: #FACFCF;
+  border-color: #5B5274;
+  border-style: solid;
+  font-size: larger;
+  padding-top: 10px;
+  height: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 30px;
+  color: #5B5274;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+.pic {
+    width: 45%;
+    height: 55%;
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+}
+  
+  .pic img {
+    height: 80%;
+    position: absolute;
+    left: 112%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    transition: transform 1s;
+  }
+  
+  .pic:hover img {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  .intro {
+    margin-top: 300px;
+  }
+
+  .typewriting-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .typewriting {
+    text-align: center;
+  }
+  
+  .text{
+    font-size: 14px;
+    text-align: justify;
+  }
+  
+  .shortcut {
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: none;
+    border: none;
+  }
+
+  .shortcut:hover {
+    transform: scale(1.1);
+  }
+  
+  .caption {
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    color: #5B5274;
+  }
+
+  .foto-notebook{
+    width: 360px;
+  }
+
+  .foto-notebook:hover {
+    transform: scale(1.1);
+  }
+
+  .foto:hover {
+    transform: scale(1.1);
+  }
+
+  .bar {
+    height: 40px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-left: 25px;
+  }
+
+  .skills {
+    margin-left: 25px;
+    font-size: 14px;
+  }
+
+  .works-section table {
+    margin: 0 auto;
+    border-spacing: 30px;
+  }
+
+  .bio {
+    margin: 0;
+    border-spacing: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
+  .logo {
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: none;
+    border: none;
+  }
+
+  .logo:hover {
+    transform: scale(1.1);
+  }
+
+  .bottom{
+    width: 100px;
+  }
+  

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Nayla's Portfolio</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/stylesheet.css">
+    </head>
+
+    <a href="#" class="ignielToTop"></a>
+    
+    <body>
+        <header>
+            <nav class="navi">
+                <table>
+                    <tr>
+                        <td align="left"><li><img src="./assets/photos/heart.png" class="icon" alt="heart"></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#contacts">Contact</a></li></td>
+                        
+                        <td align="right">
+                            <li id="date"></li>
+                            <li id="time"></li>
+                            <li><img src="./assets/photos/moon-stars.png" class="icon" alt="moon and stars"></li></td>
+                    </tr>
+                </table>
+            </nav> 
+        </header>
+
+        <div class="background-container"></div>
+        <div class="hanging top-left"></div>
+        <div class="hanging top-right"></div>  
+
+        <main>
+            <div class="pic">
+              <img src="./assets/photos/pp.png" class="pfp" id="about">
+            </div>
+            <p align="center" class="intro">Hello, I'm Nayla Zayyannafisah Abida</p>
+            <div class="typewriting-container">
+              <span class="typewriting"></span>
+            </div>
+            <br>
+            <br>
+            
+              <div class="resume">
+                <button class="shortcut" onclick="toggleResume()"><img src="./assets/photos/resume.png" alt="Resume" id="resume"></button>
+                <p class="caption">Resume</p>
+                  <div class="resume-section" style="display: none;">
+                    <div class="content_header">
+                      <span class="header-text">My Resume</span>
+                        <button class="exit-button" onclick="toggleResume()">X</button>
+                    </div>
+                    <div class="content-resume">
+                      <h3>‧͙⁺˚*･༓☾　Education and Organisational Experience　☽༓･*˚⁺‧͙</h3>
+                      <p class="text">Passionate second-year Computer Science major at the University of Pembangunan Nasional Veteran Jakarta, with a strong focus 
+                        on honing skills in UI/UX design, graphic design, front-end development, and UX research. As an enthusiastic member of KSM Android, 
+                        a prominent college organization, I have gained valuable experience in project-based work, cultivating a keen eye for detail, a drive 
+                        for excellence, and a solid understanding of user-centered design principles. Proficient in Figma and Canva, I am eager to seize an 
+                        internship opportunity that will enable me to further refine my abilities in creating captivating UI, engaging graphic design, 
+                        conducting meaningful UX research, and applying industry best practices.</p><br>
+
+                      <h3>‧͙⁺˚*･༓☾　Skills　☽༓･*˚⁺‧͙</h3>
+                      <h4>❤ Graphic and UI/UX Designer</h4>
+                      <!-- <img src="./photos/heartfull.png" alt="Bar Full" class="bar"> -->
+                      <p class="skills">Proficient in graphic and UI/UX design, with a strong emphasis on creating visually appealing designs and 
+                        conducting UX research. Skilled in utilizing Canva and Figma for design projects, while also employing user-centered design principles.</p><br>
+
+                      <h4>❤ Front-End Developer</h4>
+                      <!-- <img src="./photos/hearthigh.png" alt="Bar High" class="bar"> -->
+                      <p class="skills">Experienced in front-end development, specializing in HTML, CSS, and JavaScript. Proficient in crafting 
+                        responsive and user-friendly web interfaces, ensuring seamless user experiences.</p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="works">
+                  <button class="shortcut" onclick="toggleWorks()"><img src="./assets/photos/works.png" alt="Works" id="works"></button>
+                  <p class="caption">Works</p>
+                    <div class="works-section" style="display: none;">
+                      <div class="content_header">
+                        <span class="header-text">My Works</span>
+                        <button class="exit-button" onclick="toggleWorks()">X</button>
+                      </div>
+                      <div class="content">
+                        <p>Through my portfolio, I showcase a diverse range of projects that demonstrate my passion for UI design and web development, 
+                          highlighting my ability to create visually appealing interfaces with intuitive user experiences.</p>
+                        <div class="shortcuts">
+                            <table>
+                                <tr>
+                                    <td><button class="shortcut" onclick="toggleBelle()"><img src="./assets/photos/folder.png" alt="Belle" id="belle"></button>
+                                    <p class="caption">Belle</p></td>
+                                    <td><button class="shortcut" onclick="togglePasarin()"><img src="./assets/photos/folder.png" alt="Pasarin" id="pasarin"></button>
+                                    <p class="caption">Pasarin</p></td>
+                                    <td><button class="shortcut" onclick="toggleNotebook()"><img src="./assets/photos/folder.png" alt="Notebook" id="notebook"></button>
+                                    <p class="caption">Notebook</p></td>
+                                </tr>
+                            </table>
+                          </div>
+                        <div class="item">
+                            <div class="belle-section" style="display: none;">
+                              <div class="content_header-isi">
+                                <span class="header-text">Belle-Beauty E-Commerce Mobile App</span>
+                                <button class="exit-button" onclick="toggleBelle()">X</button>
+                              </div>
+                              <div class="content-isi">
+                                <img src="./assets/photos/works/belle1.png" class="foto">
+                                <img src="./assets/photos/works/belle2.png" class="foto">
+                                <p>As part of a collaborative effort, I conducted UX research to inform the design decisions for Belle, an e-commerce mobile app. 
+                                  Leveraging the insights gained, I then created a visually stunning UI design using Figma, ensuring an engaging and intuitive shopping experience.</p>
+                                <a href="https://www.figma.com/proto/Bl5sNINpwjwU77PPOoVUqn/Belle-App-Redesign?type=design&node-id=437-500&scaling=scale-down&page-id=437%3A493&starting-point-node-id=437%3A494" target="_blank">Click here to see!</a>
+                              </div>
+                          </div>
+                        </div>
+        
+                          <div class="item">
+                              <div class="pasarin-section" style="display: none;">
+                                <div class="content_header-isi">
+                                  <span class="header-text">Pasarin SIG Website</span>
+                                  <button class="exit-button" onclick="togglePasarin()">X</button>
+                                </div>
+                                <div class="content-isi">
+                                  <img src="./assets/photos/works/pasarin1.png" class="foto">
+                                  <img src="./assets/photos/works/pasarin2.png" class="foto">
+                                  <p>Within a team setting, I played a key role in crafting the UI design for Pasarin, a mobile website that simplifies the search for shops in traditional markets. Using Figma, 
+                                    I ensured a user-friendly interface that seamlessly integrates with a geographic information system, enhancing the accessibility and convenience of market navigation</p>
+                                  <a href="https://www.figma.com/proto/cw9gqZvSq4X2485QnTexB0/PKM-KC-SIG-Pasar-Tradisional?type=design&node-id=85-611&scaling=scale-down&page-id=85%3A564&starting-point-node-id=85%3A611" target="_blank">Click here to see!</a>
+                                </div>
+                            </div>
+                          </div>
+        
+                            <div class="item">
+                                <div class="notebook-section" style="display: none;">
+                                  <div class="content_header-isi">
+                                    <span class="header-text">Notebook-Note Taking Website</span>
+                                    <button class="exit-button" onclick="toggleNotebook()">X</button>
+                                  </div>
+                                  <div class="content-isi">
+                                    <img src="./assets/photos/works/notebook.png" class="foto-notebook">
+                                    <p>As a contributor to a group project, I took charge of the UI design for Notebook, a versatile website application. Through the use of Figma, I created an appealing and 
+                                      user-centric interface. Additionally, I applied my skills in HTML, CSS, JavaScript, PHP, and SQL to bring the design to life, enabling seamless note-taking and task management functionality.</p>
+                                    <a href="https://github.com/NaylaZayyannafisah/Notebook" target="_blank">Click here to see!</a>
+                                  </div>
+                              </div>
+                            </div>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="contacts">
+                  <button class="shortcut" onclick="toggleContacts()"><img src="./assets/photos/contacts.png" alt="Contacts" id="contacts"></button>
+                  <p class="caption">Contact</p>
+                     <div class="contacts-section" style="display: none;">
+                      <div class="content_header">
+                        <span class="header-text">Contact Me</span>
+                        <button class="exit-button" onclick="toggleContacts()">X</button>
+                      </div>
+                      <div class="content">
+                        <p>I welcome any inquiries or opportunities for collaboration. Feel free to get in touch using the contact details provided below, and I'll be happy to connect with you.</p>
+                        <div class="bio">
+                        <table cellspacing="50">
+                          <tr>
+                              <td><a href="https://www.linkedin.com/in/nayla-zayyannafisah" target="_blank">
+                                <img src="./assets/photos/linkedin.png" alt="Linkedin" class="logo">
+                                <p class="caption">Linkedin</p></a></td>
+                              <td><a href="https://www.instagram.com/naylazyl" target="_blank">
+                                <img src="./assets/photos/instagram.png" alt="Instagram" class="logo">
+                                <p class="caption">Instagram</p></a></td>
+                              <td><a href="https://github.com/NaylaZayyannafisah" target="_blank">
+                                <img src="./assets/photos/github.png" alt="Github" class="logo">
+                                <p class="caption">Github</p></a></td>
+                          </tr>
+                        </table>
+                    </div>
+                    <h3>Email</h3>
+                    <p>naylzayyannafisah@gmail.com</p><br>
+
+                    <h3>Phone Number</h3>
+                    <p>+6281933802161</p>
+                    </div>
+                    </div>
+                </div>
+        </main>
+        
+        <footer>
+            <p>Copyright © 2023 Nayla Zayyannafisah</p>
+        </footer>
+
+        <script type="text/javascript" src="./assets/script.js"></script>
+    </body>
+</html>
+
